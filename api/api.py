@@ -2,7 +2,7 @@ from flask import *
 from flask_sqlalchemy import SQLAlchemy
 import base64
 app=Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://gusree:gunaSREE1@@db4free.net:3306/gusree_12'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://gusree:gunaSREE1@@db4free.net:3306/gusree'
 app.config['SQLALCHEMY_ECHO'] = True
 db = SQLAlchemy(app)
 
