@@ -6,12 +6,22 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "FormData": "^0.10.1",
+    "bootstrap": "^4.5.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-google-login": "^5.1.20",
+    "react-popper": "^2.2.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-social-login": "^3.4.8",
+    "reactstrap": "^8.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "start-flask-api": "cd api && vvenv/Scripts/flask run",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -19,6 +29,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "proxy": "http://127.0.0.1:5000/",
   "browserslist": {
     "production": [
       ">0.2%",
