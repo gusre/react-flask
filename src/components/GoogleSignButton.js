@@ -3,7 +3,7 @@ import { GoogleLogin, GoogleLogout } from 'react-google-login';
 import Header from './Header';
 
 
-const CLIENT_ID = '780450049786-cngeftle1se52ps8kjk4n3cm49igb1sp.apps.googleusercontent.com';
+const CLIENT_ID='google client id';
 const STATE_KEY = "TOKEN";
 
 class GoogleBtn extends Component {
