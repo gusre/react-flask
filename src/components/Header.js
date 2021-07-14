@@ -34,15 +34,14 @@ class Header extends Component {
     }
     login(response) {
         console.log(Object.keys(response));
-        console.log(response['Qt']);
-        console.log(response['wc']['access_token']);
-        if (response['wc']['access_token']) {
+        console.log(response['mc']['access_token']);
+        if (response['mc']['access_token']) {
             this.setState(state => ({
                 isLogined: true,
-                accessToken: response['wc']['access_token']
+                accessToken: response['mc']['access_token']
             }));
         }
-        localStorage.setItem(STATE_KEY, response['wc']['access_token']);
+        localStorage.setItem(STATE_KEY, response['mc']['access_token']);
     }
 
     logout(response) {
